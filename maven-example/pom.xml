@@ -77,7 +77,7 @@
                 <goal>deploy-file</goal>
             </goals>
             <configuration>
-                <file>src/main/java/artifactory/test/Multi1.java</file>
+                <file>multi1/src/main/java/artifactory/test/Multi1.java</file>
                 <url>http://admin:password@localhost:8081/artifactory/libs-release-local</url>
                 <groupId>org.jfrog.test</groupId>
                 <artifactId>multi</artifactId>
