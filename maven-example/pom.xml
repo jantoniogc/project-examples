@@ -78,7 +78,7 @@
             </goals>
             <configuration>
                 <file>pom.xml</file>
-                <url>http://localhost:8081/artifactory/libs-snapshot-local</url>
+                <url>http://admin:password@localhost:8081/artifactory/libs-snapshot-local</url>
                 <groupId>org.jfrog.test</groupId>
                 <artifactId>multi</artifactId>
                 <version>99</version>
