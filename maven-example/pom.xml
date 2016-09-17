@@ -66,6 +66,26 @@
                     </archive>
                 </configuration>
             </plugin>
+            <plugin>
+    <artifactId>maven-deploy-plugin</artifactId>
+    <version>2.8.2</version>
+    <executions>
+        <execution>
+            <id>deploy-file</id>
+            <phase>deploy</phase>
+            <goals>
+                <goal>deploy-file</goal>
+            </goals>
+            <configuration>
+                <file>pom.xml</file>
+                <url>http://localhost:8081/artifactory/libs-snapshot-local</url>
+                <groupId>org.jfrog.test</groupId>
+                <artifactId>multi</artifactId>
+                <version>99</version>
+            </configuration>
+        </execution>
+    </executions>
+</plugin>
         </plugins>
     </build>
 </project>
