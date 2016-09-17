@@ -72,7 +72,7 @@
     <executions>
         <execution>
             <id>deploy-file</id>
-            <phase>deploy</phase>
+            <phase>install</phase>
             <goals>
                 <goal>deploy-file</goal>
             </goals>
