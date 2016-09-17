@@ -77,8 +77,8 @@
                 <goal>deploy-file</goal>
             </goals>
             <configuration>
-                <file>pom.xml</file>
-                <url>http://admin:password@localhost:8081/artifactory/libs-snapshot-local</url>
+                <file>gradle-examples/4/gradle-jcenter-resolve/build.gradle</file>
+                <url>http://admin:password@localhost:8081/artifactory/libs-release-local</url>
                 <groupId>org.jfrog.test</groupId>
                 <artifactId>multi</artifactId>
                 <version>99</version>
