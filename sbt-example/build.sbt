@@ -1,10 +1,6 @@
-lazy val root = (project in file(".")).
-  settings(
-    name := "SBT_Example",
-    version := "1.1-SNAPSHOT",
-    scalaVersion := "2.12.1"
-
-  )
+  name := "SBT_Example"
+  version := "1.0.0"
+  scalaVersion := "2.12.1"
   
   resolvers += "Artifactory" at "https://www.opencanarias.com/ic/repositorio/jcenter/"
 
