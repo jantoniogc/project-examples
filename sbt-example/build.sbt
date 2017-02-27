@@ -1,12 +1,11 @@
-  name := "SBT_Example",
-  version := "1.0",
+  name := "com.opencanarias.ocas"
+  version := "1.0"
   scalaVersion := "2.12.1"
   
   resolvers += "Artifactory" at "https://www.opencanarias.com/ic/repositorio/jcenter/"
 
   publishTo := Some("Artifactory sbt Example" at "https://www.opencanarias.com/ic/repositorio/temp/")
 
-  credentials += Credentials("Artifactory sbt Example", "opencanarias.com/ic/repositorio", "jgonzalez", "may13may")  
-  //credentials += Credentials(new File("credentials.properties"))
+  credentials += Credentials(new File("${WORKSPACE}/sbt-example/credentials.properties"))
 
   libraryDependencies += "org.apache.derby" % "derby" % "10.4.1.3"
