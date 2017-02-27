@@ -1,3 +1,4 @@
+
 lazy val root = (project in file(".")).
   settings(
     name := "SBT_Example",
@@ -7,8 +8,9 @@ lazy val root = (project in file(".")).
 
   resolvers += "Artifactory" at "https://www.opencanarias.com/ic/repositorio/jcenter/"
 
-  publishTo := Some("Artifactory Realm" at "https://www.opencanarias.com/ic/repositorio/temp/")
+  publishTo := Some("Artifactory sbt Example" at "https://www.opencanarias.com/ic/repositorio/temp/")
 
-  credentials += Credentials(new File("credentials.properties"))
+  credentials += Credentials("Artifactory sbt Example", "https://www.opencanarias.com/ic/repositorio", "jgonzalez", "may13may")  
+  //credentials += Credentials(new File("credentials.properties"))
 
   libraryDependencies += "org.apache.derby" % "derby" % "10.4.1.3"
