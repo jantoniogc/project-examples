@@ -6,6 +6,6 @@
 
   publishTo := Some("Artifactory sbt Example" at "https://www.opencanarias.com/ic/repositorio/temp/")
 
-  credentials += Credentials(new File("${WORKSPACE}/sbt-example/credentials.properties"))
+  credentials += Credentials(new File("credentials.properties"))
 
   libraryDependencies += "org.apache.derby" % "derby" % "10.4.1.3"
