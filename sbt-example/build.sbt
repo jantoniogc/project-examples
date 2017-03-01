@@ -3,11 +3,11 @@
   scalaVersion := "2.12.1"
   organization := "com.opencanarias"
 
-  publishMavenStyle := true,
+  publishMavenStyle := true
 
-  publishArtifact in Test := false,
+  publishArtifact in Test := false
 
-  pomIncludeRepository := { _ ⇒ false },
+  pomIncludeRepository := { _ ⇒ false }
   
   resolvers += "Artifactory" at "https://www.opencanarias.com/ic/repositorio/jcenter/"
 
