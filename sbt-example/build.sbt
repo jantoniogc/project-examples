@@ -4,7 +4,6 @@
   scalaVersion := "2.12.1"
   organization := "com.opencanarias"
 
-  sbtPlugin := true 
   
   resolvers += "Artifactory" at "https://www.opencanarias.com/ic/repositorio/jcenter/"
 
