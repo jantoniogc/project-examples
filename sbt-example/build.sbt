@@ -1,6 +1,13 @@
-  name := "SBT_Example"
+  name := "SBTExample"
   version := "1.0.0"
   scalaVersion := "2.12.1"
+  organization := "com.opencanarias"
+
+  publishMavenStyle := true,
+
+  publishArtifact in Test := false,
+
+  pomIncludeRepository := { _ ⇒ false },
   
   resolvers += "Artifactory" at "https://www.opencanarias.com/ic/repositorio/jcenter/"
 
