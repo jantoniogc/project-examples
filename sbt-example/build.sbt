@@ -4,7 +4,7 @@
   
   resolvers += "Artifactory" at "https://www.opencanarias.com/ic/repositorio/jcenter/"
 
-  publishTo := Some("Artifactory Realm" at "https://www.opencanarias.com/ic/repositorio/sbtprueba/")
+  publishTo := Some("Artifactory Realm" at "https://www.opencanarias.com/ic/repositorio/ocas/")
 
   credentials += Credentials(new File("credentials.properties"))
 
