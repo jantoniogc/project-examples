@@ -5,11 +5,11 @@
   organization := "com.opencanarias"
 
   
-  resolvers += "Artifactory" at "https://www.opencanarias.com/ic/repositorio/jcenter/"
+  resolvers += "Artifactory" at "https://www.opencanarias.com/ic/repositorio/ocas/"
 
   publishTo := Some("Artifactory Realm" at "https://www.opencanarias.com/ic/repositorio/ocas/")
 
   credentials += Credentials(new File("credentials.properties"))
 
 
-  libraryDependencies += "org.apache.derby" % "derby" % "10.4.1.3"
+  libraryDependencies += "com.opencanarias" % "ocas_2.12" % "1.0.0"
