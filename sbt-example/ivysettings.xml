@@ -1,9 +1,0 @@
-<ivysettings>
-  <settings defaultResolver="chain"/>
-  <resolvers>
-    <chain name="chain">
-      <ibiblio name="mset-lang" m2compatible="true"/>
-      <updatesite name="mset-lang" url="https://www.opencanarias.com/ic/repositorio/mset/mset-lang" />
-    </chain>
-  </resolvers>
-</ivysettings>
