@@ -7,7 +7,7 @@
   
   resolvers ++= Seq (
     "Artifactory" at "https://www.opencanarias.com/ic/repositorio/ocas/",
-    "msetlang" at "https://www.opencanarias.com/ic/repositorio/mset/mset-lang/2.1.0.20170117-I/plugins/"
+    "msetlang" at "https://www.opencanarias.com/ic/repositorio/mset/mset-lang/"
   )
 
   publishTo := Some("Artifactory Realm" at "https://www.opencanarias.com/ic/repositorio/ocas/")
