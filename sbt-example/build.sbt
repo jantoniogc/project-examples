@@ -6,10 +6,11 @@
 
   
   resolvers ++= Seq (
-    "Artifactory" at "https://www.opencanarias.com/ic/repositorio/ocas/"
+    "Artifactory" at "https://www.opencanarias.com/ic/repositorio/ocas/",
+    "mset-lang" at "https://www.opencanarias.com/ic/repositorio/mset"
   )
 
-  publishTo := Some("Artifactory Realm" at "https://www-pre.opencanarias.com/ic/repositorio/ocas/")
+  publishTo := Some("Artifactory Realm" at "https://www.opencanarias.com/ic/repositorio/ocas/")
 
   credentials += Credentials(new File("credentials.properties"))
 
