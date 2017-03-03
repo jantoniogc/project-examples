@@ -18,4 +18,4 @@
 
 
   libraryDependencies += "com.opencanarias" % "ocas_2.12" % "1.0.0"
-  libraryDependencies += "bundle" % "com.isb.qahost.adqa.cobol.cst.parser.source" % "1.0.0.20170117-I"
+  libraryDependencies += "mset-lang" % "2.1.0.20170117-I" % "plugins"
